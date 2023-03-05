@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "@types/jest": "^27.0.0",
-    "@types/node": "^16.0.0"
+    "@types/node": "^18.14.6"
   },
   "peerDependencies": {
     "typescript": "^4.9.0"
