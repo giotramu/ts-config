@@ -1,0 +1,17 @@
+{
+  "extends": "../base/tsconfig.json",
+
+  "display": "Node v16 - CJS",
+
+  "compilerOptions": {
+    /* Modules */
+    "module": "ES2020",
+
+    /* Emit */
+    "declaration": true,
+
+    /* Language and Environment */
+    "lib": ["ES2021"],
+    "target": "ES2021"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "../base/tsconfig.json",
+
+  "display": "React",
+
+  "compilerOptions": {
+    /* Modules */
+    "module": "ESNext",
+
+    /* Emit */
+    "noEmit": true,
+    "importsNotUsedAsValues": "error",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+
+    /* Language and Environment */
+    "jsx": "preserve",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "ES2015"
+  }
+}

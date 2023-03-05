@@ -1,0 +1,35 @@
+{
+  "name": "@giotramu/tsc",
+  "version": "0.1.0",
+  "description": "Strict and modular TypeScript config with supports for Node.js and React.js.",
+  "author": "giotramu <https://github.com/giotramu>",
+  "homepage": "https://github.com/giotramu/ts-config#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giotramu/ts-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giotramu/ts-config/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "base/tsconfig.json",
+  "files": [
+    "/base",
+    "/node",
+    "/react"
+  ],
+  "dependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^4.9.0"
+  },
+  "keywords": [
+    "typescript",
+    "ts-config"
+  ]
+}
