@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "extends": "../base/tsconfig.json",
+
+  "display": "Node v16 - CJS",
+
+  "compilerOptions": {
+    /* Modules */
+    "module": "es2020",
+
+    /* Emit */
+    "declaration": true,
+
+    /* Language and Environment */
+    "lib": ["es2021"],
+    "target": "es2021"
+  }
+}

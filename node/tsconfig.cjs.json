@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "extends": "../base/tsconfig.json",
+
+  "display": "Node v16 - ESM",
+
+  "compilerOptions": {
+    /* Modules */
+    "module": "commonjs",
+
+    /* Emit */
+    "declaration": true,
+
+    /* Language and Environment */
+    "lib": ["es2021"],
+    "target": "es2021"
+  }
+}
