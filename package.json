@@ -22,7 +22,7 @@
     "/react/"
   ],
   "dependencies": {
-    "@types/jest": "^27.0.0",
+    "@types/jest": "^29.4.0",
     "@types/node": "^16.0.0"
   },
   "peerDependencies": {
