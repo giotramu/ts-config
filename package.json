@@ -1,7 +1,7 @@
 {
   "name": "@giotramu/tsc",
   "version": "0.1.0",
-  "description": "Strict and modular TypeScript config with supports for Node.js and React.js.",
+  "description": "A collection of TSConfigs to extend in your own apps, tuned to a particular runtime environment.",
   "author": "giotramu <https://github.com/giotramu>",
   "homepage": "https://github.com/giotramu/ts-config#readme",
   "license": "MIT",
